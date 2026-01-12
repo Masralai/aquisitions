@@ -122,3 +122,144 @@
 {"level":"info","message":"User devv.v48282@gmail.com authenticated successfully","service":"aquisitions-api"}
 {"level":"info","message":"User signed in successfully: devv.v48282@gmail.com","service":"aquisitions-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:15:02 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 117 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:58:52 +0000] \"POST /health HTTP/1.1\" 500 91 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:06 +0000] \"GET /health HTTP/1.1\" 500 91 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:09 +0000] \"GET /health HTTP/1.1\" 500 91 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:42 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:44 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:46 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:46 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:46 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:46 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:47 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:47 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:47 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:48 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:48 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:48 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:49 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:49 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:49 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:49 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:50 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:50 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:50 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:50 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:50 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:50 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:51 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:55 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:55 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:55 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:55 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:56 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:56 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:56 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:57 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:57 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:57 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:57 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:58 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:58 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:58 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:02:59:59 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:00:00 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:00:00 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:00:00 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:00:01 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:00:01 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:00:01 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:00:01 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:00:01 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:00:02 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:00:02 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:00:02 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:51 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:55 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:55 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:55 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:55 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:56 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:56 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:56 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:57 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:57 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:57 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:57 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:58 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:58 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:58 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:58 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:58 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:01:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:02:00 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:02:00 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:02:00 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:05:20 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:05:20 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:05:21 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:05:21 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:05:21 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:05:22 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:05:22 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:05:22 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:05:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:07:17 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:08:10 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:08:20 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:08:20 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:08:21 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:08:21 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:08:21 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:08:22 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:08:22 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:08:22 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:08:23 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:11:51 +0000] \"GET /health HTTP/1.1\" 403 60 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:11:57 +0000] \"GET /health HTTP/1.1\" 403 60 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:12:11 +0000] \"GET /health HTTP/1.1\" 403 60 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:12:30 +0000] \"GET /health HTTP/1.1\" 403 60 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:12:32 +0000] \"GET /health HTTP/1.1\" 403 60 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:14:25 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:14:26 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:14:27 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:14:27 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:14:27 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:14:28 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:14:28 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:14:28 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:14:28 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:16:23 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:16:28 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:16:28 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:16:29 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:16:29 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:16:29 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:16:29 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:16:29 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:16:29 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
