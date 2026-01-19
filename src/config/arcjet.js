@@ -1,38 +1,19 @@
-import arcjet, { shield, detectBot, tokenBucket,slidingWindow } from "@arcjet/node";
-
-const isDev = process.env.NODE_ENV !== "production";
+import arcjet, { shield, detectBot, slidingWindow } from '@arcjet/node';
 
 const aj = arcjet({
   key: process.env.ARCJET_KEY,
   rules: [
-    shield({ mode: isDev ? "DRY_RUN" : "LIVE" }),
-
-    ...(isDev
-      ? []
-      : [
-          detectBot({
-            mode: "LIVE",
-            allow: ["CATEGORY:SEARCH_ENGINE", "CATEGORY:PREVIEW"],
-          }),
-          slidingWindow({
-            mode: "LIVE",
-            interval: 60,
-            max: 500,
-          }),
-        ]),
+    shield({ mode: 'LIVE' }),
+    detectBot({
+      mode: 'LIVE',
+      allow: ['CATEGORY:SEARCH_ENGINE', 'CATEGORY:PREVIEW', 'CATEGORY:CURL'],
+    }),
+    slidingWindow({
+      mode: 'LIVE',
+      interval: '2s',
+      max: 5,
+    }),
   ],
 });
-    // Create a token bucket rate limit. Other algorithms are supported.
-    // tokenBucket({
-    //   mode: "LIVE",
-    //   // Tracked by IP address by default, but this can be customized
-    //   // See https://docs.arcjet.com/fingerprints
-    //   //characteristics: ["ip.src"],
-    //   refillRate: 5, // Refill 5 tokens per interval
-    //   interval: 10, // Refill every 10 seconds
-    //   capacity: 10, // Bucket capacity of 10 tokens
-    // }),
-
-
 
 export default aj;

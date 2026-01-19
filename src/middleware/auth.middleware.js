@@ -7,22 +7,22 @@ export const authenticateToken = (req, res, next) => {
 
     if (!token) {
       return res.status(401).json({
-        error: 'authentication required',
-        message: 'no access token provided',
+        error: 'Authentication required',
+        message: 'No access token provided',
       });
     }
 
     const decoded = jwttoken.verify(token);
     req.user = decoded;
 
-    logger.info(`users authenticated: ${decoded.email} (${role})`);
+    logger.info(`User authenticated: ${decoded.email} (${decoded.role})`);
     next();
   } catch (e) {
-    logger.error('Authentication error', e);
+    logger.error('Authentication error:', e);
 
     if (e.message === 'Failed to authenticate token') {
       return res.status(401).json({
-        error: 'authentication failed',
+        error: 'Authentication failed',
         message: 'Invalid or expired token',
       });
     }
@@ -34,13 +34,13 @@ export const authenticateToken = (req, res, next) => {
   }
 };
 
-export const requiredRole = allowedRoles => {
+export const requireRole = allowedRoles => {
   return (req, res, next) => {
     try {
       if (!req.user) {
         return res.status(401).json({
           error: 'Authentication required',
-          message: 'user not autheticated',
+          message: 'User not authenticated',
         });
       }
 
@@ -48,14 +48,15 @@ export const requiredRole = allowedRoles => {
         logger.warn(
           `Access denied for user ${req.user.email} with role ${req.user.role}. Required: ${allowedRoles.join(', ')}`
         );
-        return res.status(401).json({
+        return res.status(403).json({
           error: 'Access denied',
-          message: 'Insufficient perms',
+          message: 'Insufficient permissions',
         });
       }
+
       next();
     } catch (e) {
-      logger.error('Role verifuication Error: ', e);
+      logger.error('Role verification error:', e);
       return res.status(500).json({
         error: 'Internal server error',
         message: 'Error during role verification',

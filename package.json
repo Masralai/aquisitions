@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "imports": {
-    "#src/*":"./src/*",
+    "#src/*": "./src/*",
     "#config/*": "./src/config/*",
     "#controllers/*": "./src/controllers/*",
     "#models/*": "./src/models/*",
@@ -27,7 +27,6 @@
     "dev:docker": "sh ./scripts/dev.sh",
     "prod:docker": "sh ./scripts/prod.sh",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"
-    
   },
   "repository": {
     "type": "git",

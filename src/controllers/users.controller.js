@@ -6,7 +6,10 @@ import {
   deleteUser as deleteUserService,
 } from '#services/users.service.js';
 import { formatValidationError } from '#utils/format.js';
-import { updateUserSchema, userIdSchema } from '#validations/users.validation.js';
+import {
+  updateUserSchema,
+  userIdSchema,
+} from '#validations/users.validation.js';
 
 export const fetchAllUsers = async (req, res, next) => {
   try {
@@ -105,9 +108,7 @@ export const updateUser = async (req, res, next) => {
     if (updatesData.email !== undefined) updates.email = updatesData.email;
     if (updatesData.role !== undefined) updates.role = updatesData.role;
 
-    logger.info(
-      `Updating user ${id} by ${authUser.email || authUser.id}`
-    );
+    logger.info(`Updating user ${id} by ${authUser.email || authUser.id}`);
 
     const updatedUser = await updateUserService(id, updates);
 
@@ -154,9 +155,7 @@ export const deleteUser = async (req, res, next) => {
       });
     }
 
-    logger.info(
-      `Deleting user ${id} by ${authUser.email || authUser.id}`
-    );
+    logger.info(`Deleting user ${id} by ${authUser.email || authUser.id}`);
 
     await deleteUserService(id);
 

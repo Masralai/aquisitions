@@ -7,7 +7,7 @@ export const users = pgTable('users', {
   password: text('password', { length: 255 }).notNull(),
   role: text('role', { length: 50 }).notNull().default('user'),
   created_at: timestamp().notNull().defaultNow(),
-  updated_at: timestamp().notNull().defaultNow()
+  updated_at: timestamp().notNull().defaultNow(),
 });
 
 // export const postsTable = pgTable('posts_table', {
