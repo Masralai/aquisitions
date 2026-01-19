@@ -263,3 +263,18 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:16:29 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
 {"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"aquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:03:16:29 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:11:17 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:11:17 +0000] \"GET /api HTTP/1.1\" 200 39 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:11:17 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:12:00 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:12:00 +0000] \"GET /api HTTP/1.1\" 200 39 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:12:00 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:12:21 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:12:21 +0000] \"GET /api HTTP/1.1\" 200 39 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:12:21 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:12:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:12:36 +0000] \"GET /api HTTP/1.1\" 200 39 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:12:36 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:16:19 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:16:19 +0000] \"GET /api HTTP/1.1\" 200 39 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [19/Jan/2026:16:16:19 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"aquisitions-api"}
