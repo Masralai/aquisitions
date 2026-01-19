@@ -4,17 +4,17 @@ import {
   updateUser,
   deleteUser,
 } from '#controllers/users.controller.js';
-import e from 'express';
+import express from 'express';
 import {
   authenticateToken,
-  requiredRole,
+  requireRole,
 } from '#middleware/auth.middleware.js';
 
-const router = e.Router();
+const router = express.Router();
 
 router.get('/', authenticateToken, fetchAllUsers);
 router.get('/:id', authenticateToken, getUserById);
 router.put('/:id', authenticateToken, updateUser);
-router.delete('/:id', authenticateToken, requiredRole(['admin']), deleteUser);
+router.delete('/:id', authenticateToken, requireRole(['admin']), deleteUser);
 
 export default router;

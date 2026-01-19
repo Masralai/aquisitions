@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">16.3% </span>
+                <span class="strong">14.7% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>15/92</span>
+                <span class='fraction'>15/102</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">16.3% </span>
+                <span class="strong">14.7% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>15/92</span>
+                <span class='fraction'>15/102</span>
             </div>
         
             
@@ -155,7 +155,17 @@
 <a name='L90'></a><a href='#L90'>90</a>
 <a name='L91'></a><a href='#L91'>91</a>
 <a name='L92'></a><a href='#L92'>92</a>
-<a name='L93'></a><a href='#L93'>93</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a>
+<a name='L96'></a><a href='#L96'>96</a>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a>
+<a name='L99'></a><a href='#L99'>99</a>
+<a name='L100'></a><a href='#L100'>100</a>
+<a name='L101'></a><a href='#L101'>101</a>
+<a name='L102'></a><a href='#L102'>102</a>
+<a name='L103'></a><a href='#L103'>103</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -196,9 +206,19 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -254,88 +274,98 @@ import { signupSchema, signinSchema } from '#validations/auth.validation.js';
 import { jwttoken } from '#utils/jwt.js';
 import { cookies } from '#utils/cookies.js';
 &nbsp;
-export const signup = <span class="fstat-no" title="function not covered" >async(req,res,next)=&gt;{</span>
-<span class="cstat-no" title="statement not covered" >  try{</span>
+export const signup = <span class="fstat-no" title="function not covered" >async (req, res, next) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
 <span class="cstat-no" title="statement not covered" >    const validationResult = signupSchema.safeParse(req.body);</span>
-<span class="cstat-no" title="statement not covered" >    if(!validationResult.success){</span>
+<span class="cstat-no" title="statement not covered" >    if (!validationResult.success) {</span>
 <span class="cstat-no" title="statement not covered" >      return res.status(400).json({</span>
 <span class="cstat-no" title="statement not covered" >        error: 'Validation failed',</span>
-<span class="cstat-no" title="statement not covered" >        details: formatValidationError(validationResult.error)</span>
+<span class="cstat-no" title="statement not covered" >        details: formatValidationError(validationResult.error),</span>
 <span class="cstat-no" title="statement not covered" >      });</span>
 <span class="cstat-no" title="statement not covered" >    }</span>
 <span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >    const{name, email, password, role} = validationResult.data;</span>
+<span class="cstat-no" title="statement not covered" >    const { name, email, password, role } = validationResult.data;</span>
 <span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >    // Auth</span>
-<span class="cstat-no" title="statement not covered" >    const user = await createUser({name , email , password, role});</span>
-<span class="cstat-no" title="statement not covered" >    const token = jwttoken.sign({id:user.id, email:user.email , role:user.role});</span>
-<span class="cstat-no" title="statement not covered" >    cookies.set(res,'token',token);</span>
+<span class="cstat-no" title="statement not covered" >    const user = await createUser({ name, email, password, role });</span>
+<span class="cstat-no" title="statement not covered" >    const token = jwttoken.sign({</span>
+<span class="cstat-no" title="statement not covered" >      id: user.id,</span>
+<span class="cstat-no" title="statement not covered" >      email: user.email,</span>
+<span class="cstat-no" title="statement not covered" >      role: user.role,</span>
+<span class="cstat-no" title="statement not covered" >    });</span>
+<span class="cstat-no" title="statement not covered" >    cookies.set(res, 'token', token);</span>
 <span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >    logger.info(`User registered successfully: ${email}`);</span>
 <span class="cstat-no" title="statement not covered" >    res.status(201).json({</span>
 <span class="cstat-no" title="statement not covered" >      message: 'User Registered',</span>
-<span class="cstat-no" title="statement not covered" >      user:{</span>
-<span class="cstat-no" title="statement not covered" >        id:user.id, name:user.name, email:user.email , role:user.role</span>
+<span class="cstat-no" title="statement not covered" >      user: {</span>
+<span class="cstat-no" title="statement not covered" >        id: user.id,</span>
+<span class="cstat-no" title="statement not covered" >        name: user.name,</span>
+<span class="cstat-no" title="statement not covered" >        email: user.email,</span>
+<span class="cstat-no" title="statement not covered" >        role: user.role,</span>
 <span class="cstat-no" title="statement not covered" >      },</span>
-<span class="cstat-no" title="statement not covered" >        </span>
 <span class="cstat-no" title="statement not covered" >    });</span>
-<span class="cstat-no" title="statement not covered" >  }catch(e){</span>
-<span class="cstat-no" title="statement not covered" >    logger.error('signup error',e);</span>
+<span class="cstat-no" title="statement not covered" >  } catch (e) {</span>
+<span class="cstat-no" title="statement not covered" >    logger.error('signup error', e);</span>
 <span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >    if(e.message === 'User with this email already exists'){</span>
-<span class="cstat-no" title="statement not covered" >      return res.status(409).json({error:'Email already exists'});</span>
+<span class="cstat-no" title="statement not covered" >    if (e.message === 'User with this email already exists') {</span>
+<span class="cstat-no" title="statement not covered" >      return res.status(409).json({ error: 'Email already exists' });</span>
 <span class="cstat-no" title="statement not covered" >    }</span>
 <span class="cstat-no" title="statement not covered" >    next(e);</span>
 <span class="cstat-no" title="statement not covered" >  }</span>
-<span class="cstat-no" title="statement not covered" >    </span>
 };
 &nbsp;
-export const signin = <span class="fstat-no" title="function not covered" >async(req,res,next)=&gt;{</span>
-<span class="cstat-no" title="statement not covered" >  try{</span>
+export const signin = <span class="fstat-no" title="function not covered" >async (req, res, next) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
 <span class="cstat-no" title="statement not covered" >    const validationResult = signinSchema.safeParse(req.body);</span>
-<span class="cstat-no" title="statement not covered" >    if(!validationResult.success){</span>
+<span class="cstat-no" title="statement not covered" >    if (!validationResult.success) {</span>
 <span class="cstat-no" title="statement not covered" >      return res.status(400).json({</span>
 <span class="cstat-no" title="statement not covered" >        error: 'Validation failed',</span>
-<span class="cstat-no" title="statement not covered" >        details: formatValidationError(validationResult.error)</span>
+<span class="cstat-no" title="statement not covered" >        details: formatValidationError(validationResult.error),</span>
 <span class="cstat-no" title="statement not covered" >      });</span>
 <span class="cstat-no" title="statement not covered" >    }</span>
 <span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >    const{email, password} = validationResult.data;</span>
+<span class="cstat-no" title="statement not covered" >    const { email, password } = validationResult.data;</span>
 <span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >    // Authenticate</span>
-<span class="cstat-no" title="statement not covered" >    const user = await authenticateUser({email, password});</span>
-<span class="cstat-no" title="statement not covered" >    const token = jwttoken.sign({id:user.id, email:user.email , role:user.role});</span>
-<span class="cstat-no" title="statement not covered" >    cookies.set(res,'token',token);</span>
+<span class="cstat-no" title="statement not covered" >    const user = await authenticateUser({ email, password });</span>
+<span class="cstat-no" title="statement not covered" >    const token = jwttoken.sign({</span>
+<span class="cstat-no" title="statement not covered" >      id: user.id,</span>
+<span class="cstat-no" title="statement not covered" >      email: user.email,</span>
+<span class="cstat-no" title="statement not covered" >      role: user.role,</span>
+<span class="cstat-no" title="statement not covered" >    });</span>
+<span class="cstat-no" title="statement not covered" >    cookies.set(res, 'token', token);</span>
 <span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >    logger.info(`User signed in successfully: ${email}`);</span>
 <span class="cstat-no" title="statement not covered" >    res.status(200).json({</span>
 <span class="cstat-no" title="statement not covered" >      message: 'User signed in successfully',</span>
-<span class="cstat-no" title="statement not covered" >      user:{</span>
-<span class="cstat-no" title="statement not covered" >        id:user.id, name:user.name, email:user.email , role:user.role</span>
+<span class="cstat-no" title="statement not covered" >      user: {</span>
+<span class="cstat-no" title="statement not covered" >        id: user.id,</span>
+<span class="cstat-no" title="statement not covered" >        name: user.name,</span>
+<span class="cstat-no" title="statement not covered" >        email: user.email,</span>
+<span class="cstat-no" title="statement not covered" >        role: user.role,</span>
 <span class="cstat-no" title="statement not covered" >      },</span>
-<span class="cstat-no" title="statement not covered" >        </span>
 <span class="cstat-no" title="statement not covered" >    });</span>
-<span class="cstat-no" title="statement not covered" >  }catch(e){</span>
-<span class="cstat-no" title="statement not covered" >    logger.error('signin error',e);</span>
+<span class="cstat-no" title="statement not covered" >  } catch (e) {</span>
+<span class="cstat-no" title="statement not covered" >    logger.error('signin error', e);</span>
 <span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >    if(e.message === 'Invalid credentials'){</span>
-<span class="cstat-no" title="statement not covered" >      return res.status(401).json({error:'Invalid email or password'});</span>
+<span class="cstat-no" title="statement not covered" >    if (e.message === 'Invalid credentials') {</span>
+<span class="cstat-no" title="statement not covered" >      return res.status(401).json({ error: 'Invalid email or password' });</span>
 <span class="cstat-no" title="statement not covered" >    }</span>
 <span class="cstat-no" title="statement not covered" >    next(e);</span>
 <span class="cstat-no" title="statement not covered" >  }</span>
-<span class="cstat-no" title="statement not covered" >    </span>
 };
 &nbsp;
-export const signout = <span class="fstat-no" title="function not covered" >async(req,res,next)=&gt;{</span>
-<span class="cstat-no" title="statement not covered" >  try{</span>
-<span class="cstat-no" title="statement not covered" >    cookies.clear(res,'token');</span>
+export const signout = <span class="fstat-no" title="function not covered" >async (req, res, next) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    cookies.clear(res, 'token');</span>
 <span class="cstat-no" title="statement not covered" >    logger.info('User signed out successfully');</span>
-<span class="cstat-no" title="statement not covered" >        </span>
+<span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >    res.status(200).json({</span>
-<span class="cstat-no" title="statement not covered" >      message: 'User signed out successfully'</span>
+<span class="cstat-no" title="statement not covered" >      message: 'User signed out successfully',</span>
 <span class="cstat-no" title="statement not covered" >    });</span>
-<span class="cstat-no" title="statement not covered" >  }catch(e){</span>
-<span class="cstat-no" title="statement not covered" >    logger.error('signout error',e);</span>
+<span class="cstat-no" title="statement not covered" >  } catch (e) {</span>
+<span class="cstat-no" title="statement not covered" >    logger.error('signout error', e);</span>
 <span class="cstat-no" title="statement not covered" >    next(e);</span>
 <span class="cstat-no" title="statement not covered" >  }</span>
 };
@@ -346,7 +376,7 @@ export const signout = <span class="fstat-no" title="function not covered" >asyn
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2026-01-19T16:16:19.545Z
+                at 2026-01-19T16:46:10.695Z
             </div>
         <script src="../../prettify.js"></script>
         <script>
